@@ -1,0 +1,23 @@
+header {
+  margin-top: 100px;
+  height: 550px;
+  background-image: url(../img/ibeacon3.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header .container-fluid {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+}
+
+@media(max-width: 767px) {
+  header {
+    margin-top: 60px;
+    height: 360px;
+  }
+}
