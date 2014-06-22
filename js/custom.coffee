@@ -12,7 +12,7 @@ $ ->
       noty({text: 'please fill in necessary fields', type: 'error'})
     else
       $.ajax
-        url: 'http://localhost:8080/api/contacts'
+        url: 'http://api.homesmartly.com/api/contacts'
         type: 'POST'
         data:
           name: name
