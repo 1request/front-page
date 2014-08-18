@@ -15,6 +15,11 @@ header .container-fluid {
   padding-top: 60px;
 }
 
+.brand {
+  float: left;
+  margin-right: 10px;
+}
+
 @media(max-width: 767px) {
   header {
     margin-top: 60px;
