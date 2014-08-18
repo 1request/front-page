@@ -1,23 +1,63 @@
+body {
+  padding-top: 60px;
+}
+
 header {
-  margin-top: 100px;
-  height: 550px;
-  background-image: url(../img/ibeacon3.jpg);
+  background-image: url(/img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 558px;
 }
 
-header .container-fluid {
-  background-color: rgba(0,0,0,0.5);
+.navbar {
+  background-color: rgba(43, 169, 63, 1);
+}
+
+.logo {
+  padding-top: 5px;
+}
+
+.navbar-center {
+    margin:0;
+    float:none;
+}
+
+h2 {
+  color: rgba(234, 234, 234, 1);
+}
+
+h3, p, label, .footer-below {
+  color: rgba(184, 184, 184, 1);
+}
+
+.navbar-inner{
+    text-align:center;
+}
+
+.intro p {
+  padding: 0 40px;
+}
+
+.form-control {
+  border: none;
+  font-size: 30px;
+}
+
+.form-line {
   width: 100%;
-  height: 100%;
-  padding-top: 60px;
 }
 
-@media(max-width: 767px) {
-  header {
-    margin-top: 60px;
-    height: 360px;
-  }
+.btn-submit {
+  color: white;
+  background: rgba(33, 172, 57, 1);
+  border-color: rgba(33, 172, 57, 1);
+}
+
+.btn-submit:hover {
+  background: rgba(33, 150, 57, 1);
+  border-color: rgba(33, 150, 57, 1);
 }
