@@ -1,3 +1,5 @@
+@font-face { font-family: AvenirLTStd, src: url('fonts/AvenirLTStd-Roman.otf');}
+
 body {
   padding-top: 60px;
 }
@@ -10,7 +12,8 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 558px;
+  width: 100%;
+  height: 366px;
 }
 
 .navbar {
@@ -24,6 +27,11 @@ header {
 .navbar-center {
     margin:0;
     float:none;
+}
+
+h1 {
+  font-family: AvenirLTStd, sans-serif;
+  color: rgba(43, 169, 63, 1);
 }
 
 h2 {
