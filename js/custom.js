@@ -2,6 +2,14 @@
 (function() {
   $(function() {
     $.stellar();
+    $('.page-scroll a').bind('click', function(event) {
+      var $anchor;
+      $anchor = $(this);
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top
+      }, 1500, 'easeInOutExpo');
+      return event.preventDefault();
+    });
     return $('#contact').submit(function(e) {
       var email, message, name;
       e.preventDefault();

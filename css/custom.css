@@ -59,13 +59,13 @@ h3, p, label, .footer-below {
   width: 100%;
 }
 
-.btn-submit {
+.btn-submit, .btn-scroll-top {
   color: white;
   background: rgba(33, 172, 57, 1);
   border-color: rgba(33, 172, 57, 1);
 }
 
-.btn-submit:hover {
+.btn-submit:hover, .btn-scroll-top:hover {
   background: rgba(33, 150, 57, 1);
   border-color: rgba(33, 150, 57, 1);
 }
