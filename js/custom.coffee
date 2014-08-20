@@ -1,5 +1,6 @@
 $ ->
-  $.stellar()
+  $.stellar
+    horizontalScrolling: false
 
   $('.page-scroll a').bind 'click', (event) ->
     $anchor = $(@)
